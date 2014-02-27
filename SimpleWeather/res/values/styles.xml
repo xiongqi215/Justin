@@ -1,0 +1,52 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+     <style name="AppTheme" parent="@android:style/Theme.Black.NoTitleBar">
+    </style>
+     <style name="refresh_ProgressBar_style">
+        <item name="android:maxWidth">45.0dip</item>
+        <item name="android:maxHeight">45.0dip</item>
+        <item name="android:indeterminateDrawable">@anim/refresh_trunover_anim</item>
+        <item name="android:minWidth">45.0dip</item>
+        <item name="android:minHeight">45.0dip</item>
+    </style>
+    
+     <style  name="defaut_text">
+         <item name="android:textColor">@android:color/white</item>     </style>
+    
+      <style  name="small_text" parent="@style/defaut_text">
+         <item name="android:textSize">12sp</item>
+     </style>
+     
+      <style  name="medium_text" parent="@style/defaut_text">
+         <item name="android:textSize">15sp</item>
+     </style>
+     
+      <style  name="large_text" parent="@style/defaut_text">
+         <item name="android:textSize">20sp</item>
+     </style>
+     
+       <style  name="huge_text" parent="@style/defaut_text">
+         <item name="android:textSize">70sp</item>
+     </style>
+     
+           <style name="base_large_progressbar_style">
+        <item name="android:maxWidth">38.0dip</item>
+        <item name="android:maxHeight">38.0dip</item>
+        <item name="android:indeterminateDrawable">@anim/base_loading_large_anim</item>
+        <item name="android:minWidth">38.0dip</item>
+        <item name="android:minHeight">38.0dip</item>
+    </style>
+</resources>

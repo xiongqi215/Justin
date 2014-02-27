@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:background="@drawable/weather_trend_item_bkg"
+    >
+    
+    <include layout="@layout/weather_trend_item"
+        android:id="@+id/day1"
+        />
+    
+      <include layout="@layout/weather_trend_item"
+        android:id="@+id/day2"
+        />
+      
+        <include layout="@layout/weather_trend_item"
+        android:id="@+id/day3"
+        />
+    
+</LinearLayout>

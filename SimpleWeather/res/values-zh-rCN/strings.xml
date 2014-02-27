@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">简单天气</string>
+<string name="df_time">0</string>
+<string name="weather_tody">今天：</string>
+<string name="weather_tomorrow">明天：</string> 
+<string name="weather_after_tomorrow">后天：</string> 
+<string name="refresh_button">点此刷新</string> 
+<string name="update_time">发布时间：</string>
+<string name="net_err">网络连接失败，请检查网络设置</string> 
+<string name="weather_loadding">天气信息加载中.....</string> 
+<string name="city_loadding">城市列表加载中.....</string> 
+<string name="city_search_hint">搜索全国城市（中文/拼音）</string>
+<string name="city_search_empty">额，不好意思，未找到您需要的城市</string>
+<string name="updating">同步中.....</string> 
+<string name="location_sccuess">定位成功！</string>
+<string name="locating">定位中......</string> 
+<string name="get_weather_fail">天气数据获取失败！</string> 
+<string name="locate_fail">定位失败！</string> 
+<string name="set_favorite_success">添加收藏成功！</string> 
+<string name="set_unfavorite_success">取消收藏成功！</string> 
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">Simple Weather</string>
+<string name="df_time">0</string>
+<string name="df_text">N/A</string>
+<string name="df_city">Null</string>
+<string name="update_time">update time:</string>
+<string name="df_temp">0℃</string>
+<string name="current_temp">current：</string>
+<string name="weather_tody">Today：</string>
+<string name="weather_tomorrow">tomorrow：</string> 
+<string name="weather_after_tomorrow">after tomorrow：</string> 
+<string name="sperator">|</string> 
+<string name="refresh_button">click to refresh</string> 
+<string name="net_err">internet connect fail,pls check set</string> 
+<string name="weather_loadding">lodding weatehr info.....</string> 
+<string name="city_loadding">loadding city info.....</string> 
+<string name="updating">updating.....</string> 
+<string name="city_search_hint">please input city name</string>
+<string name="city_search_empty">no city named this</string>
+<string name="location_sccuess">locate sccuess</string>
+<string name="locating">locating.....</string> 
+<string name="get_weather_fail">get weather fail</string> 
+<string name="locate_fail">locate fail</string> 
+<string name="set_favorite_success">set favorite success</string> 
+<string name="set_unfavorite_success">set unfavorite success</string> 
+</resources>

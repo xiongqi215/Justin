@@ -1,0 +1,6 @@
+<resources>
+	<string-array name="city">
+		<item>北京</item>
+		<item>南昌</item>
+	</string-array>
+</resources>

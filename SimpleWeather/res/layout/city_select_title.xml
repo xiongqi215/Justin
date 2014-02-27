@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	 android:layout_height="45.0dip"
+        android:id="@+id/city_select_tilte"
+        android:layout_width="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal" 
+        android:background="@color/main_title_backgroud" 
+        >
+
+    <ImageView
+        android:id="@+id/btn_back_to_weather"
+        android:layout_width="45.0dip"
+        android:layout_height="37dp"
+        android:src="@drawable/back"
+        android:layout_gravity="center" 
+         />
+
+    <ImageView
+        android:layout_width="1.0dip"
+        android:layout_height="25dip"
+        android:background="@color/actionbar_separator"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/city_selector_title"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dip"
+        android:text="城市选择"
+        android:textColor="#ffffffff"
+        android:textSize="15sp" 
+        
+        />
+    
+    
+    </LinearLayout>
+    
+
+
+

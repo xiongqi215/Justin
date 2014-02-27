@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+ 	android:layout_height="45.0dip"
+    android:orientation="vertical"
+    android:background="@drawable/search_input_bkg"
+     >
+<FrameLayout 
+     android:layout_width="fill_parent"
+ 	android:layout_height="fill_parent"
+ 	android:id="@+id/search_input"
+    >
+    <EditText
+        android:paddingLeft="5dp"
+        android:id="@+id/city_name_inputer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:drawableLeft="@drawable/magnifying_glass"
+        android:hint="@string/city_search_hint"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray" 
+        android:singleLine ="true"
+         android:ellipsize="none"
+        >
+    </EditText>
+    </FrameLayout>
+    
+    <ImageButton
+        android:id="@+id/cancel_input"
+        android:layout_width="30.0dip"
+        android:layout_height="30.0dip"
+        android:layout_alignRight="@id/search_input"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/cross" 
+        android:layout_marginRight="10dp"
+        android:paddingTop="5dp"
+        android:padding="0.0dip"
+        android:scaleType="centerCrop"
+        android:shadowColor="#8fffffff"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+ 	android:layout_marginLeft="12dp"
+ 	android:layout_marginRight="12dp"
+    >
+    
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textSize="18dp"
+         android:textColor="@android:color/white"
+        />
+    
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/date"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:src="@drawable/w0" />
+    
+    <TextView
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textSize="15dp"
+        android:textColor="@android:color/white"
+        />
+    
+     <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weather"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textSize="15dp"
+         android:textColor="@android:color/white"
+        />
+    
+
+</RelativeLayout>

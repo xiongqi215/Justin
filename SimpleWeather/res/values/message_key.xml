@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+<item type="key" name="update_time"/>
+<item type="key" name="update_weather"/>
+<item type="key" name="get_cached_weather"/>
+<item type="key" name="get_Weather_By_cityCode"/>
+<item type="key" name="change_city"/>
+<item type="key" name="locate_ok"/>
+<item type="key" name="get_weather_fail"/>
+<item type="key" name="locate_fail"/>
+<item type="key" name="city_list_finish"/>
+<item type="key" name="get_location"/>
+<item type="key" name="update_start"/>
+<item type="key" name="update_finish"/>
+
+</resources>
